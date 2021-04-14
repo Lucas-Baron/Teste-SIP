@@ -1,0 +1,53 @@
+@media (max-width: 880px){
+    .login{
+        width: 600px;
+    }
+
+    .left{
+        width: 280px;
+    }
+
+    .right{
+        width: 280px;
+    }
+
+    .right .produto{
+        margin-right: 16px;
+    }
+
+    .produto img{
+        width: 260px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 650px){
+    .login{
+        width: 500px;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 16px;
+    }
+
+    .left img{
+        width: 100px;
+    }
+    
+    .left h1{
+        font-family: 'Zen Dots', sans-serif;
+        font-size: 32px;
+    }
+
+    .right h3{
+        font-size: 32px;
+        margin-top: 24px;
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 550px){
+    .login{
+        width: 350px;
+    }
+}
