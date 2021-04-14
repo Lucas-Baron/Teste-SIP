@@ -84,6 +84,10 @@ form .field-group .field + .field{
     margin-left: 24px;
 }
 
+.butt{
+    display:flex;
+}
+
 form button{
     width: 260px;
     height: 56px;
@@ -104,6 +108,7 @@ form button:hover{
 }
 
 form a{
+    margin: 0 auto;
     padding: 16px 80px;
     background-color: red;
     color: white;

@@ -1,0 +1,35 @@
+@media (max-width: 800px){
+    form .field-group{
+        flex-direction: column;    
+    }
+
+    form .field-group .field + .field{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 700px){
+    form{    
+        width: 430px;
+    }
+
+    .butt{
+        display:flex;
+        flex-direction: column;
+    }
+
+    form button{
+        width: 100%; 
+    }
+
+    form label{
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 600px){
+    form{    
+        width: 330px;
+    }
+}

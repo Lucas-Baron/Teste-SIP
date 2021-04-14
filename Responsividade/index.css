@@ -1,0 +1,22 @@
+@media (max-width: 900px){
+    .login{
+        width: 600px;        
+    }
+}
+
+@media (max-width: 675px){
+    .login{
+        margin: 24px auto;
+        width: 400px;
+        height: 800px;
+        flex-direction: column;
+
+    }
+
+    body{
+        height: auto;
+ 
+    }
+}
+
+
